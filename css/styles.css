@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans|Satisfy&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+/* Header */
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  background: #ffffff;
+}
+
+header {
+  background: url(../images/Showcase1.jpeg);
+  height: 100vh;
+  width: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  display: table;
+  background-attachment: fixed;
+}
+
+.navbar {
+  float: right;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  color: #39393b;
+  text-decoration: none;
+  padding: 5px 30px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.2rem;
+}
+
+.navbar li a:hover {
+  background: rgba(71, 70, 70, 0.644);
+  color: #242222;
+}
+
+.logo-brand {
+  width: 100px;
+  height: auto;
+  float: left;
+}
+
+.logo-brand a {
+  text-decoration: none;
+  color: #39393b;
+  font-size: 2rem;
+  margin-top: 8px;
+  padding: 5px 30px;
+  display: inline-block;
+  font-family: "Satisfy", cursive;
+}
+
+.main-title {
+  position: absolute;
+  width: 500px;
+  margin: 10% 30%;
+  text-align: center;
+}
+
+.main-title h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 2.5rem;
+  color: #ffffff;
+  background: #39393b;
+  border-radius: 30%;
+}
+
+.introduction {
+  text-align: center;
+}
+
+/* About*/
+
+#about {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.about-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.about-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1.5rem;
+}
+
+.Video-text {
+  display: grid;
+  width: 50%;
+  height: 50%;
+}
+
+.video {
+  width: 40vw;
+  height: 40vh;
+}
+
+/* Portfolio */
+
+.pimg-1,
+.pimg-2,
+.pimg-3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pimg-1 {
+  background-image: url(../images/Holdinghands.jpg);
+  min-height: 800px;
+}
+
+.pimg-2 {
+  background-image: url(../images/pic2.jpeg);
+  min-height: 800px;
+}
+
+.pimg-3 {
+  background-image: url(../images/wedding.jpeg);
+  min-height: 800px;
+}
+
+.section-portfolio {
+  padding: 20px 20px;
+  text-align: center;
+  line-height: 1.7em;
+  font-size: 1.3rem;
+}
+
+/*Contact*/
+
+#contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-img {
+  width: 80%;
+  height: 100%;
+}
+
+/*Footer*/
+footer {
+  text-align: center;
+  font-size: medium;
+  height: 60px;
+  padding-top: 20px;
+  background-color: #39393b;
+  color: #ffffff;
+}
